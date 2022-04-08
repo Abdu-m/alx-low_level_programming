@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * main - lower case
- * Return: 0 if success
+/**
+ *main - lower case alphabet except e and q
+ *Return: 0 if success
 */
 int main(void)
 {
