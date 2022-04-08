@@ -16,6 +16,6 @@ for (u_case = 'A'; u_case <= 'Z'; u_case++)
 {
 putchar(u_case);
 }
-Putchar('\n');
+putchar('\n');
 return (0);
 }
