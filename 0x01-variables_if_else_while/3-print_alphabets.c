@@ -8,14 +8,14 @@ int main(void)
 {
 char l_case;
 char u_case;
-for (u_case = 'A'; u_case <= 'Z'; u_case++)
-{
-putchar(u_case);
-}
 for (l_case = 'a'; l_case <= 'z'; l_case++)
 {
 putchar(l_case);
 }
-putchar('\n');
+for (u_case = 'A'; u_case <= 'Z'; u_case++)
+{
+putchar(u_case);
+}
+Putchar('\n');
 return (0);
 }
