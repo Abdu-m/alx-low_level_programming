@@ -2,13 +2,13 @@
 /**
  *main - alphabet
  *
- *Return: always 0 (succes) 
+ *Return: always 0 (success)
  *
 */
 int main(void)
 {
 char c;
-for (c = 'a'; c <= '2'; c++)
+for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
