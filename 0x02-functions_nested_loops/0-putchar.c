@@ -3,10 +3,11 @@
  *main - entery point
  *Return: 0
 */
-void _putchar(void)
+int main(void)
 {
-	char c = "_puchar";
-	_putchar(c);
+	char c[] = "_puchar";
+	for (int i = 0; i < 10; i++)
+	_putchar(c[]);
 	_putchar("\n");
-return (0);
+	return (0);
 }
