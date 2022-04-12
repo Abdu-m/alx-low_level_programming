@@ -12,5 +12,4 @@ else if (n < 0)
 putchar('-');
 else
 putchar('0');
-return (0);
 }
