@@ -3,7 +3,7 @@
  *main - entery point
  *Return: 0
 */
-int main(void)
+void _putchar(void)
 {
 	char c = "_puchar";
 	_putchar(c);
