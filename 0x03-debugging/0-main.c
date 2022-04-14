@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *main - entery
- *Return: 0
+ * main - entery
+ * Return: 0
 */
 int main(void)
 {
