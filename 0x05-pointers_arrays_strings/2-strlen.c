@@ -3,7 +3,7 @@
 *_strlen - length of string
 *@s: a pointer to an int that will be updated
 */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int u;
 
