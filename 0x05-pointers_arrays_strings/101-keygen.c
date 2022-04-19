@@ -5,6 +5,7 @@
 /**
  * main - generate password
 */
+
 int main(void)
 {
 	int num;
