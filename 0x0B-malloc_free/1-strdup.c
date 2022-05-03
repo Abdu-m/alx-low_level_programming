@@ -10,32 +10,32 @@
  */
 char *_strdup(char *str)
 {
-  char *a;
-  void *x = NULL;
-  int n = 0, i = 0;
-  if (str != NULL)
-    {
-      while (str[n] != 0)
+	char *a;
+	void *x = NULL;
+	int n = 0, i = 0;
+
+	if (str != NULL)
 	{
-	  n++;
+		while (str[n] != 0)
+		{
+			n++;
+		}
 	}
-    }
-  else
-    {
-      return (x);
-    }
-  a = malloc(sizeof(char) * (n + 1));
-  if (a == NULL)
-    {
-      return (0);
-    }
-  else
-    {
-      while (i <= n)
+	else
 	{
-	  a[i] = str[i];i++;
+		return (x);
 	}
-      return (a);
-    }
-  return (0);
+	a = malloc(sizeof(char) * (n + 1));
+	if (a == NULL)
+	{
+		return (0);
+	}
+	else
+	{
+		while (i <= n)
+			a[i] = str[i];
+			i++;
+	}
+	return (a);
+	return (0);
 }
