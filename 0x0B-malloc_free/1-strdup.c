@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *_strdup - function that returns a pointer
+ * *_strdup - function  that returns a pointer
  * to a newly allocated space in memory
  *
  * @str: Parameter with the string
@@ -25,7 +25,9 @@ char *_strdup(char *str)
 	{
 		return (x);
 	}
+
 	a = malloc(sizeof(char) * (n + 1));
+
 	if (a == NULL)
 	{
 		return (0);
@@ -33,10 +35,12 @@ char *_strdup(char *str)
 	else
 	{
 		while (i <= n)
+		{
 			a[i] = str[i];
 			i++;
+		}
+		return (a);
 	}
-	return (a);
-}
+
 	return (0);
 }
